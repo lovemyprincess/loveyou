@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<title>ПРИНЦЕССА 👑</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #ff6fb5, #ff9bd4, #ffc6e8);
+    color: white;
+    text-align: center;
+    overflow-x: hidden;
+  }
+  .neon {
+    font-size: 50px;
+    margin: 30px 0 10px;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #ff4fa3,
+      0 0 20px #ff4fa3,
+      0 0 40px #ff1f8f;
+  }
+  .container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+  }
+  .photos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 30px 0;
+  }
+  .photos img {
+    width: 220px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  }
+  .reason {
+    background: rgba(0,0,0,0.25);
+    margin: 6px 0;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: left;
+  }
+  button {
+    margin: 30px 0 10px;
+    padding: 15px 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    background: #ff2e7a;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  button:hover {
+    background: #ff0062;
+  }
+  #love {
+    display: none;
+    font-size: 30px;
+    margin-top: 40px;
+  }
+  .heart {
+    position: fixed;
+    top: -10px;
+    color: #ff2e7a;
+    user-select: none;
+    pointer-events: none;
+    animation: fall linear forwards;
+  }
+  @keyframes fall {
+    to {
+      transform: translateY(110vh);
+    }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="neon">ПРИНЦЕССА, Я ТЕБЯ ОБОЖАЮ 👑</div>
+
+  <div class="photos">
+    <img src="photo1.jpg" alt="Фото 1" />
+    <img src="photo2.jpg" alt="Фото 2" />
+    <img src="photo3.jpg" alt="Фото 3" />
+  </div>
+
+  <h2>100 причин, почему я тебя люблю</h2>
+
+  <div id="reasons-list">
+    <div class="reason">1. Потому что твоя улыбка озаряет мой мир.</div>
+    <div class="reason">2. Потому что твои глаза полны искренности и тепла.</div>
+    <div class="reason">3. Потому что ты умеешь поддержать в любой ситуации.</div>
+    <div class="reason">4. Потому что с тобой я чувствую себя настоящим.</div>
+    <div class="reason">5. Потому что ты делаешь меня лучше, вдохновляя своим примером.</div>
+    <div class="reason">6. Потому что ты слушаешь и слышишь меня по-настоящему.</div>
+    <div class="reason">7. Потому что твоя доброта согревает сердца всех вокруг.</div>
+    <div class="reason">8. Потому что ты умеешь радоваться мелочам, как никто другой.</div>
+    <div class="reason">9. Потому что твой смех  самая лучшая музыка для моих ушей.</div>
+    <div class="reason">10. Потому что с тобой легко и интересно говорить обо всём.</div>
+    <div class="reason">11. Потому что ты красива как снаружи, так и внутри.</div>
+    <div class="reason">12. Потому что ты смелая и не боишься быть собой.</div>
+    <div class="reason">13. Потому что ты всегда поддерживаешь мои мечты.</div>
+    <div class="reason">14. Потому что ты умеешь прощать и идти вперёд.</div>
+    <div class="reason">15. Потому что с тобой каждый день  маленькое приключение.</div>
+    <div class="reason">16. Потому что ты замечаешь то, что другие не видят.</div>
+    <div class="reason">17. Потому что твоя честность и открытость вдохновляют.</div>
+    <div class="reason">18. Потому что ты умеешь заботиться обо мне и о себе.</div>
+    <div class="reason">19. Потому что твоя энергия заряжает меня позитивом.</div>
+    <div class="reason">20. Потому что ты умеешь делать мир вокруг лучше.</div>
+    <div class="reason">21. Потому что с тобой мне хочется становиться лучше каждый день.</div>
+    <div class="reason">22. Потому что твои советы всегда мудры и своевременны.</div>
+    <div class="reason">23. Потому что ты умеешь слушать тишину и понимать её.</div>
+    <div class="reason">24. Потому что ты знаешь, как поддержать меня взглядом.</div>
+    <div class="reason">25. Потому что твоя страсть к жизни вдохновляет меня.</div>
+    <div class="reason">26. Потому что с тобой легко мечтать о будущем.</div>
+    <div class="reason">27. Потому что ты умеешь смеяться над собой.</div>
+    <div class="reason">28. Потому что твоя нежность спасает меня в трудные моменты.</div>
+    <div class="reason">29. Потому что ты принимаешь меня таким, какой я есть.</div>
+    <div class="reason">30. Потому что твоя искренность  редкий дар.</div>
+    <div class="reason">31. Потому что ты умеешь любить без условий.</div>
+    <div class="reason">32. Потому что ты  мой самый надёжный друг.</div>
+    <div class="reason">33. Потому что ты умеешь делать каждый момент особенным.</div>
+    <div class="reason">34. Потому что ты умеешь удивлять и восхищать.</div>
+    <div class="reason">35. Потому что твой голос  самый приятный звук в мире.</div>
+    <div class="reason">36. Потому что ты вдохновляешь меня становиться лучше.</div>
+    <div class="reason">37. Потому что ты делаешь меня счастливым просто своей близостью.</div>
+    <div class="reason">38. Потому что ты умеешь находить свет в любой тени.</div>
+    <div class="reason">39. Потому что твоя улыбка  моя лучшая награда.</div>
+    <div class="reason">40. Потому что ты веришь в меня, даже когда я сомневаюсь.</div>
+    <div class="reason">41. Потому что с тобой я могу быть уязвимым.</div>
+    <div class="reason">42. Потому что ты поддерживаешь мои стремления и цели.</div>
+    <div class="reason">43. Потому что ты  моя надежда и опора.</div>
+    <div class="reason">44. Потому что твоя любовь делает меня сильнее.</div>
+    <div class="reason">45. Потому что ты умеешь создавать уют и тепло.</div>
+    <div class="reason">46. Потому что ты уважаешь и ценишь меня.</div>
+    <div class="reason">47. Потому что ты умеешь любить даже мелочи.</div>
+    <div class="reason">48. Потому что ты всегда находишь время для нас.</div>
+    <div class="reason">49. Потому что ты настоящая, без притворства.</div>
+    <div class="reason">50. Потому что ты вдохновляешь меня жить полной жизнью.</div>
+    <div class="reason">51. Потому что ты всегда улыбаешься, даже когда сложно.</div>
+    <div class="reason">52. Потому что с тобой я могу делиться всем, что у меня на душе.</div>
+    <div class="reason">53. Потому что ты умеешь творить чудеса своими руками и сердцем.</div>
+    <div class="reason">54. Потому что ты моя муза и вдохновение.</div>
+    <div class="reason">55. Потому что твоя доброта безгранична.</div>
+    <div class="reason">56. Потому что ты умеешь быть сильной и нежной одновременно.</div>
+    <div class="reason">57. Потому что ты учишь меня любить и быть любимым.</div>
+    <div class="reason">58. Потому что ты  самый красивый человек в моей жизни.</div>
+    <div class="reason">59. Потому что твоя улыбка меняет всё вокруг.</div>
+    <div class="reason">60. Потому что ты умеешь слушать и понимать без слов.</div>
+    <div class="reason">61. Потому что ты веришь в наши общие мечты.</div>
+    <div class="reason">62. Потому что ты  мой свет в темноте.</div>
+    <div class="reason">63. Потому что ты умеешь хранить наши воспоминания.</div>
+    <div class="reason">64. Потому что твои слова лечат душу.</div>
+    <div class="reason">65. Потому что ты умеешь радоваться моим успехам как своим.</div>
+    <div class="reason">66. Потому что ты заботишься обо мне без напоминаний.</div>
+    <div class="reason">67. Потому что ты умеешь принимать меня с моими недостатками.</div>
+    <div class="reason">68. Потому что ты  моя гармония и покой.</div>
+    <div class="reason">69. Потому что ты умеешь создавать атмосферу любви вокруг.</div>
+    <div class="reason">70. Потому что ты  моя настоящая счастливая случайность.</div>
+    <div class="reason">71. Потому что ты вдохновляешь меня на новые свершения.</div>
+    <div class="reason">72. Потому что ты всегда честна со мной.</div>
+    <div class="reason">73. Потому что с тобой я могу мечтать и воплощать мечты.</div>
+    <div class="reason">74. Потому что твоя нежность лечит мои раны.</div>
+    <div class="reason">75. Потому что ты поддерживаешь меня в любых начинаниях.</div>
+    <div class="reason">76. Потому что ты умеешь смеяться искренне и от души.</div>
+    <div class="reason">77. Потому что твоя любовь даёт мне силы идти дальше.</div>
+    <div class="reason">78. Потому что ты создаёшь уют в нашем доме и сердце.</div>
+    <div class="reason">79. Потому что ты  самый важный человек для меня.</div>
+    <div class="reason">80. Потому что с тобой я чувствую себя целым.</div>
+    <div class="reason">81. Потому что ты умеешь поддержать в трудную минуту.</div>
+    <div class="reason">82. Потому что ты наполняешь мою жизнь смыслом.</div>
+    <div class="reason">83. Потому что ты  мой самый верный спутник.</div>
+    <div class="reason">84. Потому что ты умеешь удивлять меня каждый день.</div>
+    <div class="reason">85. Потому что ты делаешь меня счастливым даже без слов.</div>
+    <div class="reason">86. Потому что ты веришь в меня и моё лучшее "я".</div>
+    <div class="reason">87. Потому что ты  мой дом и место силы.</div>
+    <div class="reason">88. Потому что твоя любовь  самое дорогое, что у меня есть.</div>
+    <div class="reason">89. Потому что ты умеешь создавать вокруг себя атмосферу тепла.</div>
+    <div class="reason">90. Потому что ты  моё вдохновение и счастье.</div>
+    <div class="reason">91. Потому что ты умеешь прощать и идти вперёд вместе со мной.</div>
+    <div class="reason">92. Потому что твоя искренность открывает мне глаза на мир.</div>
+    <div class="reason">93. Потому что с тобой я хочу прожить всю жизнь.</div>
+    <div class="reason">94. Потому что ты делаешь меня лучше своим присутствием.</div>
+    <div class="reason">95. Потому что ты  мой самый ценный подарок.</div>
+    <div class="reason">96. Потому что ты умеешь любить так, как никто другой.</div>
+    <div class="reason">97. Потому что твоя красота  отражение твоей души.</div>
+    <div class="reason">98. Потому что ты всегда находишь правильные слова.</div>
+    <div class="reason">99. Потому что ты делаешь меня счастливым просто так  своим "просто быть".</div>
+    <div class="reason">100. Потому что я очень сильно люблю тебя, именно такой, какая ты есть.</div>
+  </div>
+
+  <button onclick="love()">Нажми ❤️</button>
+
+  <div id="love">
+    Я люблю тебя ❤️<br />
+    Прости меня дурака...
+  </div>
+
+</div>
+
+<script>
+  function love() {
+    document.getElementById("love").style.display = "block";
+  }
+
+  function createHeart() {
+    const heart = document.createElement("div");
+    heart.className = "heart";
+    heart.innerHTML = "❤️";
+
+    heart.style.left = Math.random() * 100 + "vw";
+    heart.style.fontSize = (10 + Math.random() * 20) + "px";
+    heart.style.animationDuration = (3 + Math.random() * 5) + "s";
+
+    document.body.appendChild(heart);
+
+    setTimeout(() => { heart.remove(); }, 8000);
+  }
+
+  setInterval(createHeart, 300);
+</script>
+</body>
+</html>
